@@ -6,14 +6,11 @@
 
 
 @Dork
-    title=="Crawlab | Distributed Web Crawler Platform"
+   app="用友-TurboCRM" && title=="用友TurboCRM"
 
 @Cmdline
     python POC-T.py -s turbocrm_lfi_1.py -aF 'app="用友-TurboCRM" && title=="用友TurboCRM"'
 
-
-@Expected Response
-    n200
 """
 
 
